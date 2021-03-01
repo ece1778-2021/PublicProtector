@@ -42,4 +42,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation project(':pocketsphinx-android-5prealpha-release')
+    implementation project (':models')
 }
+//ant.importBuild 'assets.xml'
+//preBuild.dependsOn(list, checksum)
+//clean.dependsOn(clean_assets)
