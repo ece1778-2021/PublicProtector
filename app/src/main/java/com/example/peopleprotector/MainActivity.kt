@@ -2,7 +2,6 @@ package com.example.peopleprotector
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -10,13 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val intent = Intent(this, SpeechToText::class.java)
+        startActivity(intent)
+        //val timerStart: Button = findViewById(R.id.timerTrigger)
 
-        val timerStart: Button = findViewById(R.id.timerTrigger)
 
-
-        timerStart.setOnClickListener{
-            move2Timer()
-        }
+        //timerStart.setOnClickListener{
+        //    move2Timer()
+        //}
     }
 
     private fun move2Timer(){

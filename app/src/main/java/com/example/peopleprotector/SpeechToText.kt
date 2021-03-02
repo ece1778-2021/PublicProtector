@@ -1,6 +1,7 @@
 package com.example.peopleprotector
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.AsyncTask
 import android.os.Bundle
@@ -27,7 +28,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
 
     /* Keyword we are looking for to activate menu */
-    private val KEYPHRASE = "what is going on"
+    private val KEYPHRASE = "start the timer"
 
     /* Used to handle permission request */
     private val PERMISSIONS_REQUEST_RECORD_AUDIO = 1
@@ -40,7 +41,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
         // Prepare the data for UI
         captions = HashMap<String, String>()
-        captions[KWS_SEARCH] = "To start the demonstration say what is going on"
+        captions[KWS_SEARCH] = "say start the timer to start the timer"
         captions[MENU_SEARCH] = "say something"
         captions[DIGITS_SEARCH] = "one two three four five"
         captions[PHONE_SEARCH] = "phone search"
@@ -67,6 +68,10 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         makeText(this, "aaa", Toast.LENGTH_SHORT).show()*/
     }
 
+    private fun move2Timer(){
+        val intent: Intent = Intent(this, Timer::class.java)
+        startActivity(intent)
+    }
     private class SetupTask(activity: SpeechToText)  : AsyncTask<Void, Void, java.lang.Exception>() {
         var activityReference: WeakReference<SpeechToText> = WeakReference<SpeechToText>(activity)
         protected override fun doInBackground(vararg params: Void): java.lang.Exception? {
@@ -123,10 +128,10 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
     override fun onPartialResult(hypothesis: Hypothesis?) {
         if (hypothesis == null) return
         val text = hypothesis.hypstr
-        if (text == KEYPHRASE) switchSearch(MENU_SEARCH)
-        else if (text == DIGITS_SEARCH) switchSearch(DIGITS_SEARCH)
-        else if (text == PHONE_SEARCH) switchSearch(PHONE_SEARCH)
-        else if (text == FORECAST_SEARCH) switchSearch(FORECAST_SEARCH)
+        if (text == KEYPHRASE) {
+            recognizer.shutdown()
+            move2Timer()
+        }
         else (findViewById<View>(R.id.text) as TextView).text = text
     }
 

@@ -34,7 +34,8 @@ class Timer : AppCompatActivity() {
 
         cancelButton.setOnClickListener{
             timer.cancel()
-            onBackPressed()
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
         redModeStart.setOnClickListener{

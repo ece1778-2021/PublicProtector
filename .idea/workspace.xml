@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09b79a44-0e6a-4f20-bc1d-6b79195af011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/CryptoGuardian.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/AmberMode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/Timer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amber_mode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/SpeechToText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/SpeechToText.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/Timer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[43595a4957313498]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,6 +54,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="43595a4957313498" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-02T01:08:43.026Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PeopleProtector" />
@@ -69,7 +69,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="PeopleProtector.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -141,9 +141,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="797" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1614643252857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="797" y="310" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614643252857" />
     <state x="740" y="299" key="FileChooserDialogImpl" timestamp="1614635660184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614635660184" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1614651101219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614651101219" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1614651101219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614651101219" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1614651101219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614651101219" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1614651101219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614651101219" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614651203948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614651203948" />
   </component>
 </project>

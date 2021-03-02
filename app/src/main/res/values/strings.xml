@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PeopleProtector</string>
+    <string name="Red">RED MODE</string>
+    <string name="Amber">AMBER MODE</string>
+    <string name="Green">GREEN MODE</string>
+    <string name="Timer">Timer</string>
+    <string name="Cancel">CANCEL</string>
 </resources>
