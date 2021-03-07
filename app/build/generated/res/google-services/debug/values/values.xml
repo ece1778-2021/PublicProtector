@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">73266417058-q2hqf2f1pqult1hceifvl2nn44ntgnan.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">73266417058</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6Io91OAitA2Y5s0t8L-jEdI28zmxhNF4</string>
+    <string name="google_app_id" translatable="false">1:73266417058:android:894bd6b4bc2cdcb381b6fb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6Io91OAitA2Y5s0t8L-jEdI28zmxhNF4</string>
+    <string name="google_storage_bucket" translatable="false">peopleprotector.appspot.com</string>
+    <string name="project_id" translatable="false">peopleprotector</string>
+</resources>

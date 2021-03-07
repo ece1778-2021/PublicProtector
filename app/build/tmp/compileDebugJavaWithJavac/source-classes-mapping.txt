@@ -1,0 +1,2 @@
+com/example/peopleprotector/BuildConfig.java
+ com.example.peopleprotector.BuildConfig

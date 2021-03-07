@@ -16,7 +16,7 @@ class Timer : AppCompatActivity() {
         val redModeStart: Button = findViewById(R.id.redModeButton)
         val cancelButton: Button = findViewById(R.id.cancelButton)
         val textTimer: TextView = findViewById(R.id.timer)
-        val time = 30000L
+        val time = 10000L
 
         val timer = object : CountDownTimer(time, 1000) {
             override fun onTick(millisUntilFinished: Long) {
