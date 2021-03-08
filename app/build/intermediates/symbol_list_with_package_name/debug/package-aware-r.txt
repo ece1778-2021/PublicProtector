@@ -1816,11 +1816,7 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btn_sst
-id btn_tts
 id button
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id cancelButton

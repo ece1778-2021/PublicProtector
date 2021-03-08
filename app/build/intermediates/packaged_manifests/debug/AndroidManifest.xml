@@ -31,6 +31,7 @@
         <activity android:name="com.example.peopleprotector.SpeechToText" />
         <activity android:name="com.example.peopleprotector.AmberMode" />
         <activity android:name="com.example.peopleprotector.Timer" />
+        <activity android:name="com.example.peopleprotector.Timer_temp" />
         <activity android:name="com.example.peopleprotector.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

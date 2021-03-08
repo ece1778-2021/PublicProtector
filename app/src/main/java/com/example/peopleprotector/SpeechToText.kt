@@ -41,7 +41,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
         // Prepare the data for UI
         captions = HashMap<String, String>()
-        captions[KWS_SEARCH] = "say start the timer to start the timer"
+        captions[KWS_SEARCH] = "Say 'Start the timer' to start the timer."
         captions[MENU_SEARCH] = "say something"
         captions[DIGITS_SEARCH] = "one two three four five"
         captions[PHONE_SEARCH] = "phone search"
@@ -69,7 +69,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
     }
 
     private fun move2Timer(){
-        val intent: Intent = Intent(this, Timer::class.java)
+        val intent: Intent = Intent(this, Timer_temp::class.java)
         startActivity(intent)
     }
     private class SetupTask(activity: SpeechToText)  : AsyncTask<Void, Void, java.lang.Exception>() {

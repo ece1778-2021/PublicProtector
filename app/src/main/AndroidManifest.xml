@@ -12,6 +12,7 @@
         <activity android:name=".SpeechToText"></activity>
         <activity android:name=".AmberMode"/>
         <activity android:name=".Timer"/>
+        <activity android:name=".Timer_temp"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

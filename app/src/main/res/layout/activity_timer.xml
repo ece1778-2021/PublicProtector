@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +7,24 @@
     tools:context=".Timer">
 
     <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="149dp"
+        android:gravity="center"
+        android:text="Say 'Skip' to skip the timer."
+        android:textSize="32dp" />
+
+    <TextView
         android:id="@+id/timer"
         android:layout_width="320dp"
         android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
         android:text="@string/Timer"
         android:textAlignment="center"
         android:textColor="#E40505"
@@ -24,6 +39,7 @@
         android:id="@+id/redModeButton"
         android:layout_width="278dp"
         android:layout_height="93dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="388dp"
         android:text="@string/Red"
         android:textSize="30sp"
@@ -38,6 +54,9 @@
         android:id="@+id/cancelButton"
         android:layout_width="278dp"
         android:layout_height="93dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
         android:text="@string/Cancel"
         android:textSize="30sp"
         app:backgroundTint="#8BC34A"
@@ -47,4 +66,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.793" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
