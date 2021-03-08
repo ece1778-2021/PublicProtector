@@ -37,7 +37,19 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
 
     private lateinit var recognizer: SpeechRecognizer
     private lateinit var captions: HashMap<String, String>
+    val time = 30000L
 
+    val timer = object : CountDownTimer(time, 1000) {
+        override fun onTick(millisUntilFinished: Long) {
+            var timeLeft = millisUntilFinished/1000
+            findViewById<TextView>(R.id.timer).text = ("${timeLeft}")
+        }
+
+        override fun onFinish() {
+            // call here other methods from activity
+            move2RedMode()
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -71,19 +83,7 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
         val redModeStart: Button = findViewById(R.id.redModeButton)
         val cancelButton: Button = findViewById(R.id.cancelButton)
         val textTimer: TextView = findViewById(R.id.timer)
-        val time = 10000L
 
-        val timer = object : CountDownTimer(time, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                var timeLeft = millisUntilFinished/1000
-                textTimer.text = ("${timeLeft}")
-            }
-
-            override fun onFinish() {
-                // call here other methods from activity
-                move2RedMode()
-            }
-        }
         timer.start()
 
 
@@ -165,6 +165,7 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
         val text = hypothesis.hypstr
         if (text == KEYPHRASE) {
             recognizer.shutdown()
+            timer.cancel()
             move2RedMode()
         }
         else (findViewById<View>(R.id.text) as TextView).text = text
