@@ -26,7 +26,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../models/build/intermediates/javac/debug/classes" />
     <output-test url="file://$MODULE_DIR$/../../../models/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
@@ -38,7 +38,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../models/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../models/build" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -6,26 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/timerTrigger"
-        android:layout_width="207dp"
-        android:layout_height="74dp"
-        android:text="Start Listening"
-        android:textSize="20sp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
-    <Button
-        android:id="@+id/notificationTrigger"
-        android:layout_width="207dp"
-        android:layout_height="74dp"
-        android:text="I am in trouble"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/TomsGreeting01"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@tools:sample/cities" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="159dp"
+            android:layout_height="284dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.809"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.284"
+            app:srcCompat="@drawable/green_mode_app_screen_001" />
+
+        <Switch
+            android:id="@+id/switch1_TestMode"
+            android:layout_width="114dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="88dp"
+            android:text="Test Mode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/timerTrigger"
+            android:layout_width="388dp"
+            android:layout_height="107dp"
+            android:text="Start Listening"
+            android:textSize="20sp"
+            app:backgroundTint="#FFBB00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/notificationTrigger"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch1_TestMode"
+            app:layout_constraintVertical_bias="0.475" />
+
+        <Button
+            android:id="@+id/notificationTrigger"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:text="I am in trouble"
+            android:textSize="20sp"
+            app:backgroundTint="#F60505"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timerTrigger" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="273dp"
+            android:layout_height="53dp"
+            android:text="@string/current_mode_is_green"
+            android:textColor="#8BC34A"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notificationTrigger" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

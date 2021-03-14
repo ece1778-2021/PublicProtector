@@ -1683,6 +1683,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable green_button
+drawable green_mode_app_screen_001
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1820,6 +1822,7 @@ id button
 id buttonPanel
 id cache_measures
 id cancelButton
+id cancelButton2
 id cancel_button
 id center
 id center_horizontal
@@ -1921,6 +1924,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView4
 id info
 id invisible
 id inward
@@ -2089,7 +2093,9 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id switch1_TestMode
 id tabMode
+id tableLayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2109,6 +2115,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2304,6 +2312,7 @@ string Cancel
 string Green
 string Red
 string Timer
+string TomsGreeting01
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2358,6 +2367,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string current_mode_is_green
 string default_notification_channel_id
 string default_web_client_id
 string error_icon_content_description
