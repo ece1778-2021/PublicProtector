@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PeopleProtector.iml" filepath="$PROJECT_DIR$/.idea/modules/PeopleProtector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PeopleProtector.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PeopleProtector.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/PeopleProtector.models.iml" filepath="$PROJECT_DIR$/.idea/modules/models/PeopleProtector.models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pocketsphinx-android-5prealpha-release/PeopleProtector.pocketsphinx-android-5prealpha-release.iml" filepath="$PROJECT_DIR$/.idea/modules/pocketsphinx-android-5prealpha-release/PeopleProtector.pocketsphinx-android-5prealpha-release.iml" />
+    </modules>
+  </component>
+</project>

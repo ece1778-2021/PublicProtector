@@ -1,0 +1,4 @@
+#Sun Mar 14 00:44:38 EST 2021
+base.0=C\:\\PublicProtector\\CryptoGuardian\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

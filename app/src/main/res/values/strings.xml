@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PeopleProtector</string>
+    <string name="Red">RED MODE</string>
+    <string name="Amber">AMBER MODE</string>
+    <string name="Green">GREEN MODE</string>
+    <string name="Timer">Timer</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="current_mode_is_green">CURRENT MODE IS: GREEN</string>
+    <string name="TomsGreeting01">Hi there! I am Tom, your Public Protector. Do you want to learn in the Test Mode, perhaps?</string>
 </resources>

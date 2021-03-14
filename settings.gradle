@@ -1,2 +1,4 @@
+include ':pocketsphinx-android-5prealpha-release'
 include ':app'
+include ':models'
 rootProject.name = "PeopleProtector"
