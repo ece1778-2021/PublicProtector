@@ -1795,8 +1795,11 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_button
+id adduserText
 id adjust_height
 id adjust_width
+id alertMessage
 id alertTitle
 id aligned
 id all
@@ -1841,6 +1844,7 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
+id confirm_password
 id container
 id content
 id contentPanel
@@ -1857,6 +1861,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_button
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -1883,6 +1888,7 @@ id easeInOut
 id easeOut
 id edit_query
 id elastic
+id email
 id end
 id endToStart
 id enterAlways
@@ -1940,6 +1946,9 @@ id line3
 id linear
 id listMode
 id list_item
+id login_button
+id logout_button
+id mapbutton
 id masked
 id material_clock_display
 id material_clock_face
@@ -1996,6 +2005,9 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id new_email
+id new_password
+id new_username
 id noScroll
 id none
 id normal
@@ -2003,6 +2015,7 @@ id notificationTrigger
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notify_contacts
 id off
 id on
 id outline
@@ -2013,11 +2026,13 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
+id phone_number
 id pin
 id position
 id postLayout
@@ -2027,6 +2042,8 @@ id radio
 id ratio
 id rectangles
 id redModeButton
+id relativeLayout
+id relativeLayout2
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2034,6 +2051,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2057,10 +2075,13 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settingsButton
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_button
+id signupfinal_button
 id sin
 id skipCollapsed
 id slide
@@ -2120,6 +2141,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id timer
+id timerText
 id timerTrigger
 id title
 id titleDividerNoCustom
@@ -2141,6 +2163,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_to_do
 id view_offset_helper
 id visible
 id wide
@@ -2212,7 +2235,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_amber_mode
 layout activity_main
+layout activity_move_to_map
+layout activity_settings
+layout activity_sign_up
 layout activity_speech_to_text
+layout activity_start_page
 layout activity_timer
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2331,6 +2358,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2340,6 +2368,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string comfirm_prompt_password
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -2430,6 +2459,10 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string prompt_email
+string prompt_password
+string prompt_phone
+string prompt_username
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

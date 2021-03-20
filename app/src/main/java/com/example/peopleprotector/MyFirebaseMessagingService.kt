@@ -17,6 +17,9 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
@@ -50,7 +53,32 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             //makeText(this, remoteMessage.data.toString(), Toast.LENGTH_SHORT).show()
 
             Handler(Looper.getMainLooper()).post{
-                makeText(this, remoteMessage.data.toString(), Toast.LENGTH_LONG).show()
+                var auth = Firebase.auth
+                var db = Firebase.firestore
+                // Do the firebase stuff
+                val userID = auth.uid.toString()
+                var username = ""
+                val docRef = db.collection("users").document(userID)
+                var ref = docRef.get()
+                    .addOnSuccessListener { document ->
+                        if(document != null) {
+                            val number: String? = document.data?.get("phone") as String?
+                            val email: String? = document.data?.get("email") as String?
+                            username = (document.data?.get("username") as String?).toString()
+                            makeText(this, username, Toast.LENGTH_LONG).show()
+                            var items = remoteMessage.data.get("message")?.split("!!")
+                            var name = items?.get(0)
+                            var lat = items?.get(1)
+                            var lon = items?.get(2)
+                            if(name != username) {
+                                makeText(this, username, Toast.LENGTH_LONG).show()
+                                var intent = Intent(this, MoveToMap::class.java)
+                                intent.putExtra("package", remoteMessage.data.get("message"))
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                startActivity(intent)
+                            }
+                        }
+                    }
             }
             if (/* Check if data needs to be processed by long running job */ true) {
                 // For long-running tasks (10 seconds or more) use WorkManager.
