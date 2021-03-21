@@ -92,6 +92,10 @@
         "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\drawable\\ic_stat_ic_notification.png"
     },
     {
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_item.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\recyclerview_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },

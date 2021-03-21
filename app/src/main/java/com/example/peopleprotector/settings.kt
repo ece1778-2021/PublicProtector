@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
@@ -40,6 +42,26 @@ class settings : AppCompatActivity() {
                 }
             }
 
+        // Populate the recyclerview
+        val list = mutableListOf<String>()
+        val recyclerView: RecyclerView = findViewById(R.id.userrecycle)
+        val numCols = 1
+        recyclerView.layoutManager = GridLayoutManager(this, numCols)
+        var adapter = CustomAdapter(list)
+        recyclerView.adapter = adapter
+
+        var res3 = db.collection("connections")
+                .get()
+                .addOnSuccessListener { result ->
+                    val adapter: CustomAdapter = recyclerView.adapter as CustomAdapter
+                    for(document in result){
+                        val uid = document.data.get("uid") as String
+                        val userToAdd = document.data.get("contact") as String
+
+                        if(uid == userID) adapter.addItem(userToAdd)
+                    }
+                }
+
         val saveButton: Button = findViewById(R.id.save_button)
         val addButton: Button = findViewById(R.id.add_button)
         val deleteButton: Button = findViewById(R.id.delete_button)
@@ -72,10 +94,15 @@ class settings : AppCompatActivity() {
                 "contact" to newUserText
             )
 
-            db.collection("connections").add(userData)
+            var res6 = db.collection("connections").add(userData)
                 .addOnSuccessListener {
 
+                    val adapter: CustomAdapter = recyclerView.adapter as CustomAdapter
+                    adapter.removeItem(newUserText)
                 }
+            while(!res6.isComplete){}
+            var intent = Intent(this, settings::class.java)
+            startActivity(intent)
         }
 
         deleteButton.setOnClickListener {
@@ -94,10 +121,13 @@ class settings : AppCompatActivity() {
                     Toast.makeText(this, toDelete, Toast.LENGTH_SHORT).show()
                     if(toDelete != "") {
                         db.collection("connections").document(toDelete).delete()
+                        val adapter: CustomAdapter = recyclerView.adapter as CustomAdapter
+                        adapter.removeItem(toDelete)
                     }
                 }
-
-
+            while(!res.isComplete) {}
+            var intent = Intent(this, settings::class.java)
+            startActivity(intent)
         }
 
     }
