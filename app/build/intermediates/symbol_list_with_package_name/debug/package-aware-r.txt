@@ -1812,6 +1812,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1829,6 +1830,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id changePhraseText
 id checkbox
 id checked
 id chip
@@ -1934,6 +1936,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id keyphrase
 id labelGroup
 id labeled
 id largeLabel
@@ -2062,6 +2065,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2362,6 +2366,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_keyphrase
 string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior

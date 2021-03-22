@@ -33,7 +33,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.PeopleProtector" >
         <activity android:name="com.example.peopleprotector.MoveToMap" />
-        <activity android:name="com.example.peopleprotector.settings" />
+        <activity
+            android:name="com.example.peopleprotector.settings"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
         <activity android:name="com.example.peopleprotector.SignUp" />
         <activity android:name="com.example.peopleprotector.MainActivity" />
         <activity android:name="com.example.peopleprotector.SpeechToText" />

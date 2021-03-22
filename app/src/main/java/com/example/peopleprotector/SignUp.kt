@@ -55,8 +55,8 @@ class SignUp : AppCompatActivity() {
                 "email" to newEmailString,
                 "username" to newUsernameString,
                 "phone" to newNumber,
-                "timer" to "30"
-
+                "timer" to "30",
+                "phrase" to "start the timer"
             )
 
             auth.createUserWithEmailAndPassword(newEmailString, newPasswordString)

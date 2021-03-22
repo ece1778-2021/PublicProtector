@@ -28,6 +28,7 @@ class settings : AppCompatActivity() {
         var username = ""
         var email = ""
         var timer = ""
+        var phrase = ""
         var docRef = db.collection("users").document(userID)
         docRef.get()
             .addOnSuccessListener { document ->
@@ -36,8 +37,10 @@ class settings : AppCompatActivity() {
                     username = (document.data?.get("username") as String?).toString()
                     email = (document.data?.get("email") as String?).toString()
                     timer = (document.data?.get("timer") as String?).toString()
+                    phrase = (document.data?.get("phrase") as String?).toString()
 
                     findViewById<EditText>(R.id.timer).setText(timer)
+                    findViewById<EditText>(R.id.keyphrase).setText(phrase)
 
                 }
             }
@@ -68,11 +71,13 @@ class settings : AppCompatActivity() {
         var timerText = findViewById<EditText>(R.id.timer).text.toString()
         saveButton.setOnClickListener {
             timerText = findViewById<EditText>(R.id.timer).text.toString()
+            val phraseText = findViewById<EditText>(R.id.keyphrase).text.toString()
             var userData = hashMapOf(
                 "phone" to number,
                 "username" to username,
                 "email" to email,
-                "timer" to timerText
+                "timer" to timerText,
+                "phrase" to phraseText
             )
 
             var res = db.collection("users").document(userID)

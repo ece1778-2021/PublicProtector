@@ -14,6 +14,10 @@ import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import edu.cmu.pocketsphinx.*
 import java.io.File
 import java.io.IOException
@@ -37,21 +41,31 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
 
     private lateinit var recognizer: SpeechRecognizer
     private lateinit var captions: HashMap<String, String>
+    private lateinit var auth: FirebaseAuth
     val time = 30000L
-
-    val timer = object : CountDownTimer(time, 1000) {
-        override fun onTick(millisUntilFinished: Long) {
-            var timeLeft = millisUntilFinished/1000
-            findViewById<TextView>(R.id.timer).text = ("${timeLeft}")
-        }
-
-        override fun onFinish() {
-            // call here other methods from activity
-            move2RedMode()
-        }
-    }
+    private lateinit var timer: CountDownTimer
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        auth = Firebase.auth
+        var db = Firebase.firestore
+        val user = auth.currentUser
+        val userID: String = user?.uid ?: "WillNotGetHere"
+
+
+        val timerVal = intent.getLongExtra("timerVal", 35000L)
+        timer = object : CountDownTimer(timerVal, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                var timeLeft = millisUntilFinished/1000
+                findViewById<TextView>(R.id.timer).text = ("${timeLeft}")
+            }
+
+            override fun onFinish() {
+                // call here other methods from activity
+                move2RedMode()
+            }
+        }
+
 
         // Prepare the data for UI
         captions = HashMap<String, String>()
@@ -94,12 +108,12 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
         }
 
         redModeStart.setOnClickListener{
-            timer.cancel()
             move2RedMode()
         }
     }
 
     private fun move2RedMode(){
+        timer.cancel()
         val red: Intent = Intent(this, AmberMode::class.java)
         startActivity(red)
     }
@@ -165,7 +179,6 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
         val text = hypothesis.hypstr
         if (text == KEYPHRASE) {
             recognizer.shutdown()
-            timer.cancel()
             move2RedMode()
         }
         else (findViewById<View>(R.id.text) as TextView).text = text

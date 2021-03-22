@@ -12,6 +12,10 @@ import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import edu.cmu.pocketsphinx.*
 import java.io.File
 import java.io.IOException
@@ -25,6 +29,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
     private val DIGITS_SEARCH = "digits"
     private val PHONE_SEARCH = "phones"
     private val MENU_SEARCH = "menu"
+    private var phrase = "start the timer"
 
 
     /* Keyword we are looking for to activate menu */
@@ -35,13 +40,29 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
     private lateinit var recognizer: SpeechRecognizer
     private lateinit var captions: HashMap<String, String>
+    private lateinit var auth: FirebaseAuth
+    private var timerVal: Long = 100000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        auth = Firebase.auth
+        var db = Firebase.firestore
+        val user = auth.currentUser
+        val userID: String = user?.uid ?: "WillNotGetHere"
+        var res9 = db.collection("users").document(userID)
+                .get()
+                .addOnSuccessListener {document ->
 
+                    if(document != null) {
+                        phrase = (document.data?.get("phrase") as String?).toString()
+                        val timerString = (document.data?.get("timer") as String?).toString()
+                        (findViewById<View>(R.id.text) as TextView).text = "Say '" + phrase + "' to start the timer."
+                        timerVal = timerString.toLong() * 1000
+                    }
+                }
         // Prepare the data for UI
         captions = HashMap<String, String>()
-        captions[KWS_SEARCH] = "Say 'Start the timer' to start the timer."
+        captions[KWS_SEARCH] = "Say '" + phrase + "' to start the timer."
         captions[MENU_SEARCH] = "say something"
         captions[DIGITS_SEARCH] = "one two three four five"
         captions[PHONE_SEARCH] = "phone search"
@@ -70,6 +91,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
     private fun move2Timer(){
         val intent: Intent = Intent(this, Timer_temp::class.java)
+        intent.putExtra("timerVal", timerVal)
         startActivity(intent)
     }
     private class SetupTask(activity: SpeechToText)  : AsyncTask<Void, Void, java.lang.Exception>() {
@@ -128,7 +150,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
     override fun onPartialResult(hypothesis: Hypothesis?) {
         if (hypothesis == null) return
         val text = hypothesis.hypstr
-        if (text == KEYPHRASE) {
+        if (text == phrase || text == "oh mighty computer") {
             recognizer.shutdown()
             move2Timer()
         }
@@ -153,7 +175,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         if (searchName == KWS_SEARCH) recognizer.startListening(searchName)
         else recognizer.startListening(searchName, 10000)
         val caption = captions[searchName]
-        (findViewById<View>(R.id.text) as TextView).text = caption
+        //(findViewById<View>(R.id.text) as TextView).text = caption
     }
 
     override fun onTimeout() {
@@ -199,7 +221,7 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
          */
 
         // Create keyword-activation search.
-        recognizer.addKeyphraseSearch(KWS_SEARCH, KEYPHRASE)
+        recognizer.addKeyphraseSearch(KWS_SEARCH, phrase)
 
         // Create grammar-based search for selection between demos
         val menuGrammar = File(assetsDir, "menu.gram")
