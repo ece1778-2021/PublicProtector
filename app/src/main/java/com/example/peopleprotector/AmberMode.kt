@@ -5,10 +5,13 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
+import android.os.Build
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -24,8 +27,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import org.json.JSONObject
+import java.util.*
+import kotlin.collections.HashMap
 
-class AmberMode : AppCompatActivity() {
+class AmberMode : AppCompatActivity(), TextToSpeech.OnInitListener {
     private val requestQueue: RequestQueue by lazy {
         Volley.newRequestQueue(this.applicationContext)
     }
@@ -39,9 +44,12 @@ class AmberMode : AppCompatActivity() {
     private var username = ""
     private lateinit var auth: FirebaseAuth
     private lateinit var fusedLocationClient: FusedLocationProviderClient
+    private lateinit var tts: TextToSpeech
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_amber_mode)
+        tts = TextToSpeech(this, this)
         auth = Firebase.auth
         val user = auth.currentUser
         val userID: String = user?.uid ?: "WillNotGetHere"
@@ -152,5 +160,30 @@ class AmberMode : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    override fun onInit(status: Int) {
+        if (status == TextToSpeech.SUCCESS) {
+            // set US English as language for tts/
+            val result = tts!!.setLanguage(Locale.US)
+
+            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Log.e("TTS","The Language specified is not supported!")
+            } else {
+                tts.speak("Human rights standard and practice for the police. Everyone has the right to security of the person.", TextToSpeech.QUEUE_FLUSH, null, "")
+            }
+
+        } else {
+            Log.e("TTS", "Initilization Failed!")
+        }
+
+    }
+    public override fun onDestroy() {
+        // Shutdown TTS
+        if (tts != null) {
+            tts!!.stop()
+            tts!!.shutdown()
+        }
+        super.onDestroy()
     }
 }

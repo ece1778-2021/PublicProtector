@@ -1804,6 +1804,7 @@ id alertTitle
 id aligned
 id all
 id always
+id ambertext
 id animateToEnd
 id animateToStart
 id asConfigured
@@ -2148,6 +2149,7 @@ id time
 id timer
 id timerText
 id timerTrigger
+id timertext2
 id title
 id titleDividerNoCustom
 id title_template
@@ -2339,6 +2341,7 @@ string Cancel
 string Green
 string Red
 string Timer
+string Timer_Text
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

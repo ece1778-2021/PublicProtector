@@ -4,7 +4,6 @@ ADDED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml:2:1-67:12
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml:2:1-67:12
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml:2:1-67:12
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\74e8d4eeab9c41f100d2d57b5eee2880\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\81461a89661eabfaf22381d6aa539168\jetified-firebase-firestore-ktx-22.1.1\AndroidManifest.xml:2:1-21:12
@@ -18,6 +17,7 @@ MERGED from [:pocketsphinx-android-5prealpha-release] C:\Users\Alex\Documents\Sc
 MERGED from [:models] C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\models\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\7b11a4b764335860c16ed6394d175473\work-runtime-2.5.0\AndroidManifest.xml:17:1-143:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\2e4659be8e1a80002ede6ca9846992eb\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\915062d169fb12cb1c72916118fe1c76\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8106791514b276c7c3cd603f7480471c\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:17:1-45:12
 MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\ceac44dcadbf89a657f70df425e34db0\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:15:1-34:12
@@ -325,8 +325,6 @@ uses-sdk
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Alex\Documents\School\Grad School\ECE1778\CryptoGuardian\app\src\main\AndroidManifest.xml
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\74e8d4eeab9c41f100d2d57b5eee2880\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:5:5-44
@@ -353,6 +351,8 @@ MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\Alex\.gradle\caches\tran
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\7b11a4b764335860c16ed6394d175473\work-runtime-2.5.0\AndroidManifest.xml:21:5-23:41
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\2e4659be8e1a80002ede6ca9846992eb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\2e4659be8e1a80002ede6ca9846992eb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8072e7c54bdda6fbe35a72c2d825e64b\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\915062d169fb12cb1c72916118fe1c76\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\915062d169fb12cb1c72916118fe1c76\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8106791514b276c7c3cd603f7480471c\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:20:5-44

@@ -14,4 +14,5 @@
     <string name="prompt_username">Username</string>
     <string name="prompt_phone">Phone Number</string>
     <string name="action_keyphrase">Enter keyphrase</string>
+    <string name="Timer_Text">Red mode will activate in...</string>
 </resources>

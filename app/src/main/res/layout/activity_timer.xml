@@ -8,15 +8,32 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="248dp"
+        android:layout_width="412dp"
+        android:layout_height="153dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="149dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="244dp"
         android:gravity="center"
-        android:text="Say 'Skip' to skip the timer."
+        android:text=""
         android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/timertext2"
+        android:layout_width="320dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="@string/Timer_Text"
+        android:textAlignment="center"
+        android:textColor="#E40505"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
 
     <TextView
         android:id="@+id/timer"
@@ -24,7 +41,7 @@
         android:layout_height="127dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="119dp"
         android:text="@string/Timer"
         android:textAlignment="center"
         android:textColor="#E40505"
