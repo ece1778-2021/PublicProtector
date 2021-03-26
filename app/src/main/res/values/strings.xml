@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">PeopleProtector</string>
+    <string name="Red">RED MODE</string>
+    <string name="Amber">AMBER MODE</string>
+    <string name="Green">GREEN MODE</string>
+    <string name="Timer">Timer</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="comfirm_prompt_password">Comfirm Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_phone">Phone Number</string>
+    <string name="action_keyphrase">Enter keyphrase</string>
+    <string name="Timer_Text">Red mode will activate in...</string>
 </resources>

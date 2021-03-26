@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeechToText">
+
+
+    <TextView
+        android:id="@+id/ambertext"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="You are in Amber Mode. Your personal keyphrase will activate the timer for Red Mode."
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_below="@+id/ambertext"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="41dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="32dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73266417058",
+    "project_id": "peopleprotector",
+    "storage_bucket": "peopleprotector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73266417058:android:894bd6b4bc2cdcb381b6fb",
+        "android_client_info": {
+          "package_name": "com.example.peopleprotector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73266417058-q2hqf2f1pqult1hceifvl2nn44ntgnan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Io91OAitA2Y5s0t8L-jEdI28zmxhNF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73266417058-q2hqf2f1pqult1hceifvl2nn44ntgnan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
