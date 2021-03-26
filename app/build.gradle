@@ -62,6 +62,6 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
     implementation "com.google.android.gms:play-services-location:15.0.1"
 }
-//ant.importBuild 'assets.xml'
+// ant.importBuild 'assets.xml'
 //preBuild.dependsOn(list, checksum)
 //clean.dependsOn(clean_assets)

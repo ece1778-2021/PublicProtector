@@ -3,8 +3,10 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/478f77eb1ad98ba8380206fda84fd344/jetified-pocketsphinx-android-5prealpha-release/res" />
       <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/e5537998dd9f5e033b00e3114e3c1e0e/jetified-pocketsphinx-android-5prealpha-release/res" />
-      <root url="jar://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/e5537998dd9f5e033b00e3114e3c1e0e/jetified-pocketsphinx-android-5prealpha-release/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/e5537998dd9f5e033b00e3114e3c1e0e/jetified-pocketsphinx-android-5prealpha-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/cedeca2c0a27ee916eb1af766b572d7c/jetified-pocketsphinx-android-5prealpha-release/res" />
+      <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/8d5b999a05440a0113d4553d685a7e12/jetified-pocketsphinx-android-5prealpha-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/8d5b999a05440a0113d4553d685a7e12/jetified-pocketsphinx-android-5prealpha-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/8d5b999a05440a0113d4553d685a7e12/jetified-pocketsphinx-android-5prealpha-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

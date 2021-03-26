@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sun.mail:android-activation:1.6.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.5/937bce3d8e6bbdc647cd00f42711a01e046af9ff/android-activation-1.6.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.5/331d9ed0459c4a669f341d5b9c3ab91961ad65ed/android-activation-1.6.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.5/91313f5e50e737f00eee8ea0e8d286553a9a0b96/android-activation-1.6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
