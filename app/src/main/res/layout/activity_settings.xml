@@ -35,48 +35,52 @@
             <TextView
                 android:id="@+id/timerText"
                 android:layout_width="wrap_content"
-                android:layout_height="49dp"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginEnd="3dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
                 android:text="Change the Timer Value"
-                android:textSize="26dp" />
+                android:textSize="24dp" />
 
             <EditText
                 android:id="@+id/timer"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginStart="-2dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginEnd="2dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true"
-                android:textSize="26dp" />
+                android:textSize="24dp" />
 
             <TextView
                 android:id="@+id/adduserText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="3dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="3dp"
-                android:text="Add or Delete a User from Your List"
-                android:textSize="26dp" />
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:text="Add or Delete a User from Your List:"
+                android:textSize="24dp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/userrecycle"
                 android:layout_width="391dp"
-                android:layout_height="192dp" />
+                android:layout_height="192dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"/>
 
             <EditText
                 android:id="@+id/user_to_do"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginStart="-1dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginEnd="1dp"
+                android:layout_marginEnd="8dp"
                 android:hint="Enter a username"
+                android:textSize="24dp"
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true" />
@@ -85,15 +89,20 @@
                 android:id="@+id/add_button"
                 android:layout_width="123dp"
                 android:layout_height="35dp"
-                android:layout_marginBottom="1dp"
-                android:text="Add" />
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="Add"
+
+            />
 
             <Button
                 android:id="@+id/delete_button"
                 android:layout_width="123dp"
                 android:layout_height="35dp"
-                android:layout_marginEnd="32dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="24dp"
                 android:text="delete" />
 
 
@@ -101,20 +110,21 @@
                 android:id="@+id/changePhraseText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="3dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="3dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
                 android:text="Change your key phrase"
-                android:textSize="26dp" />
+                android:textSize="24dp" />
 
             <EditText
                 android:id="@+id/keyphrase"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginStart="-1dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginEnd="1dp"
+                android:layout_marginEnd="8dp"
                 android:hint="Enter a keyphrase"
+                android:textSize="24dp"
                 android:imeActionLabel="@string/action_keyphrase"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true" />

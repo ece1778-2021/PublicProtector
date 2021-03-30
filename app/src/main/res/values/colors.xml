@@ -7,8 +7,31 @@
 //    <color name="teal_700">#FF018786</color>
 //    <color name="black">#FF000000</color>
 //    <color name="white">#FFFFFFFF</color>
+//  Red Palette for the RED Mode
     <color name="primaryColor">#b71c1c</color>
     <color name="primaryLightColor">#f05545</color>
     <color name="primaryDarkColor">#7f0000</color>
+    <color name="secondaryColor">#e57373</color>
+    <color name="secondaryLightColor">#ffa4a2</color>
+    <color name="secondaryDarkColor">#af4448</color>
     <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+//  Green Palette for the Green Mode
+    <color name="primaryGColor">#35b339</color>
+    <color name="primaryLightGColor">#6fe669</color>
+    <color name="primaryDarkGColor">#008200</color>
+    <color name="secondaryGColor">#008200</color>
+    <color name="secondaryLightGColor">#008200</color>
+    <color name="secondaryDarkGColor">#008200</color>
+    <color name="primaryTextGColor">#000000</color>
+    <color name="secondaryTextGColor">#000000</color>
+//  Amber Palette for the Amber Mode
+    <color name="primaryAColor">#efbc44</color>
+    <color name="primaryLightAColor">#ffee75</color>
+    <color name="primaryDarkAColor">#b98c06</color>
+    <color name="secondaryAColor">#f4ea39</color>
+    <color name="secondaryLightAColor">#ffff70</color>
+    <color name="secondaryDarkAColor">#beb800</color>
+    <color name="primaryTextAColor">#000000</color>
+    <color name="secondaryTextAColor">#000000</color>
 </resources>
