@@ -1850,6 +1850,7 @@ id buttonPanel
 id cache_measures
 id cancelButton
 id cancel_button
+id cancel_red_mode
 id center
 id center_horizontal
 id center_vertical
@@ -1872,6 +1873,7 @@ id clockwise
 id collapseActionView
 id confirm_button
 id confirm_password
+id confirm_red_mode
 id container
 id content
 id contentPanel
@@ -2267,6 +2269,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_amber_mode
+layout activity_confirm_red_mode
 layout activity_main
 layout activity_move_to_map
 layout activity_settings
@@ -2405,6 +2408,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string comfirm_prompt_password
+string comfirm_red
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

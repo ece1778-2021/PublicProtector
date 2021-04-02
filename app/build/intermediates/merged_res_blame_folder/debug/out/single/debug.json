@@ -1,102 +1,106 @@
 [
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_amber_mode.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_amber_mode.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_move_to_map.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_move_to_map.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_stat_ic_notification.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\drawable-v24\\ic_stat_ic_notification.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_confirm_red_mode.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_confirm_red_mode.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/drawable-v24_ic_stat_ic_notification.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/drawable-v24/ic_stat_ic_notification.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/drawable_ic_stat_ic_notification.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/drawable/ic_stat_ic_notification.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_amber_mode.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_amber_mode.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start_page.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_start_page.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_timer.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_timer.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_move_to_map.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_move_to_map.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_recyclerview_item.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/recyclerview_item.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_speech_to_text.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_speech_to_text.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_speech_to_text.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_speech_to_text.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_start_page.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_start_page.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stat_ic_notification.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\drawable\\ic_stat_ic_notification.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_item.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\recyclerview_item.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_timer.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_timer.xml"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
-        "source": "/home/legaltechtor/publicprotector/CryptoGuardian/app/src/main/res/layout/activity_settings.xml"
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

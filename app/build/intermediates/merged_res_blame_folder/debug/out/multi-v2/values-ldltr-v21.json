@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/legaltechtor/publicprotector/CryptoGuardian/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/legaltechtor/.gradle/caches/transforms-2/files-2.1/5de205a12c608a594b30ca400b0a21fc/appcompat-1.2.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-2\\files-2.1\\5de205a12c608a594b30ca400b0a21fc\\appcompat-1.2.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

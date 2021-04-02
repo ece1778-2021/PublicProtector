@@ -107,8 +107,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         notifStart.setOnClickListener {
-            val topic = "/topics/protect"
-            sendMessage(topic)
+            //val topic = "/topics/protect"
+            //sendMessage(topic)
+            var intent = Intent(this, ConfirmRedMode::class.java)
+            startActivity(intent)
         }
 
         settingsButton.setOnClickListener{
