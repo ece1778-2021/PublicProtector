@@ -5,12 +5,14 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#dbffd4"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/timerTrigger"
         android:layout_width="207dp"
         android:layout_height="74dp"
+        android:backgroundTint="#efbc44"
         android:text="Activate Amber mode"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,21 +22,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <Button
         android:id="@+id/notificationTrigger"
         android:layout_width="207dp"
         android:layout_height="74dp"
-        android:text="Send global alert"
+        android:backgroundTint="#b71c1c"
+        android:text="Activate Red mode"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timerTrigger"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.259" />
 
     <ImageButton
         android:id="@+id/settingsButton"
@@ -51,25 +55,28 @@
         android:id="@+id/logout_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="108dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#35b339"
         android:text="Logout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/timerTrigger"
+        app:layout_constraintEnd_toStartOf="@+id/settingsButton"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintTop_toBottomOf="@+id/notify_contacts"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
 
     <Button
         android:id="@+id/notify_contacts"
         android:layout_width="198dp"
         android:layout_height="72dp"
-        android:layout_marginTop="52dp"
-        android:text="Notify Contacts"
+        android:layout_marginTop="72dp"
+        android:background="#0000"
+        android:backgroundTint="#35b339"
+        android:text=""
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notificationTrigger" />
 
