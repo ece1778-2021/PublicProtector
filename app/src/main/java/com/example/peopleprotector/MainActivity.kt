@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            Toast.makeText(baseContext, "nopermission", Toast.LENGTH_SHORT).show()
+            Toast.makeText(baseContext, "Location Permission Denied", Toast.LENGTH_SHORT).show()
             return
         }
         fusedLocationClient.lastLocation
@@ -132,19 +132,21 @@ class MainActivity : AppCompatActivity() {
             // Get new FCM registration token
             val token = task.result
 
+            // Andrei, this is the token that the Firebase produces
+
             // Log and toast
             //val msg = getString(R.string.msg_token_fmt, token)
             val msg = token;
             if (msg != null) {
                 Log.d(TAG, msg)
             }
-            Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+            // Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
         })
         Firebase.messaging.subscribeToTopic("protect")
                 .addOnCompleteListener { task ->
-                    var msg = "You did it"
+                    var msg = "Messaging Enabled"
                     if (!task.isSuccessful) {
-                        msg = "You didn't do it"
+                        msg = "Messaging Disabled"
                     }
                     Log.d(TAG, msg)
                     Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
@@ -166,9 +168,9 @@ class MainActivity : AppCompatActivity() {
                     if (username != null) {
                         Firebase.messaging.subscribeToTopic(username)
                             .addOnCompleteListener { task ->
-                                var msg = "You did it again"
+                                var msg = "Firebase Connection Successful"
                                 if (!task.isSuccessful) {
-                                    msg = "You didn't do it again"
+                                    msg = "Firebase Connection Failed"
                                 }
                                 Log.d(TAG, msg)
                                 Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
