@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MoveToMap">
+    tools:context=".MoveToMap"
+    android:background="@color/primaryDarkColor">
 
     <TextView
         android:id="@+id/alertMessage"
@@ -26,6 +27,7 @@
         android:layout_height="72dp"
         android:layout_marginBottom="228dp"
         android:text="See their location on google maps"
+        app:backgroundTint="@color/secondaryTextColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

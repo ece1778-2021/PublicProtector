@@ -76,7 +76,8 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         }
 
         SetupTask(this).execute()
-        /*var activityReference = WeakReference<SpeechToText>(this)
+        /* begin of uncomment */
+        var activityReference = WeakReference<SpeechToText>(this)
         var assets: Assets = Assets(activityReference.get())
         var assetDir: File = assets.syncAssets()
         recognizer = SpeechRecognizerSetup.defaultSetup()
@@ -86,7 +87,8 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
                 .recognizer
         recognizer.addListener(this)
         recognizer.addKeyphraseSearch("wakeup", "oh mighty computer")
-        makeText(this, "aaa", Toast.LENGTH_SHORT).show()*/
+        makeText(this, "aaa", Toast.LENGTH_SHORT).show()
+        /* end of uncomment*/
     }
 
     private fun move2Timer(){
@@ -133,7 +135,8 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         }
     }
 
-    /*override fun onPartialResult(hypothesis: Hypothesis) {
+    /*
+    override fun onPartialResult(hypothesis: Hypothesis) {
         if(hypothesis == null) return
 
         var text = hypothesis.hypstr
@@ -146,7 +149,9 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
             makeText(this, "no", Toast.LENGTH_SHORT).show()
         }
 
-    }*/
+    }
+
+     */
     override fun onPartialResult(hypothesis: Hypothesis?) {
         if (hypothesis == null) return
         val text = hypothesis.hypstr

@@ -5,9 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_gravity="center_vertical"
-    tools:context=".MainActivity" >
+    android:background="@color/primaryLightGColor"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-41dp">
 
 
     <EditText
@@ -75,6 +79,7 @@
         android:layout_height="69dp"
         android:layout_gravity="center_horizontal"
         android:text="Sign up"
+        app:backgroundTint="@color/secondaryTextColor"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="432dp" />
 

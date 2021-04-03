@@ -24,63 +24,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09b79a44-0e6a-4f20-bc1d-6b79195af011" name="Default Changelist" comment="minor adjustments to UI&#10;- switching from sp to dp (density-independent pixels) in all measurements to allow for dynamic resizing on different screens&#10;- some minor changes with colors (making red everywhere same red, green - same green, etc.)">
-      <change afterPath="$PROJECT_DIR$/models/build/.transforms/2d0156b7ebebbe4fac19f4095e6d67ec.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/build/.transforms/2d0156b7ebebbe4fac19f4095e6d67ec/classes/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/build/.transforms/bfe88eed8654abf644b25db08db72501.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/build/.transforms/bfe88eed8654abf644b25db08db72501/classes/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/03679920b7b5c71efcb875a47277b102.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/111c49bd2f8481547feefd02c107208d.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/21f5d8166c4a1b00fe7e860168eb2d14.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/223ba30fe2050d27a62e776d58cb90aa.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/223ba30fe2050d27a62e776d58cb90aa/jetified-pocketsphinx-android-5prealpha-release-runtime.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/25212ec4e74c03da5d233fc6e18e292e.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/2888701b1cb46a5286545e577eda634e.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/2b5bf9bcf7100237137f9d620f031d91.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/8a1cbb382b7c08e94081eb345bc24bae.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/8a1cbb382b7c08e94081eb345bc24bae/edu.cmu.pocketsphinx-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/b31359db0c7fbaac2fcd0182a04fbe5e.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/c31512df7cce74933ac05f6783af1e5b.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/c98f619c575fa50f43ff1a07d8877f3a.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/c98f619c575fa50f43ff1a07d8877f3a/jetified-pocketsphinx-android-5prealpha-release-runtime/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/d05f22fbff234c359254189293d3881f.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/build/.transforms/d05f22fbff234c359254189293d3881f/jetified-pocketsphinx-android-5prealpha-release-runtime/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="09b79a44-0e6a-4f20-bc1d-6b79195af011" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_amber_mode.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_amber_mode.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_timer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_timer.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/SpeechToText.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/peopleprotector/SpeechToText.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_amber_mode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amber_mode.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_move_to_map.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_move_to_map.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_speech_to_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_speech_to_text.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_start_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_start_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +178,14 @@
       <option name="presentableId" value="Default" />
       <updated>1614635635024</updated>
     </task>
+    <task id="LOCAL-00001" summary="minor adjustments to UI&#10;- switching from sp to dp (density-independent pixels) in all measurements to allow for dynamic resizing on different screens&#10;- some minor changes with colors (making red everywhere same red, green - same green, etc.)">
+      <created>1617081038693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617081038693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,10 +225,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="797" y="310" key="AndroidCreateXmlResourceDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616373395877" />
-    <state x="80" y="0" width="1196" height="703" key="CommitChangelistDialog2" timestamp="1617080945331">
+    <state x="80" y="0" width="1196" height="703" key="CommitChangelistDialog2" timestamp="1617081027841">
       <screen x="0" y="0" width="1366" height="708" />
     </state>
-    <state x="80" y="0" width="1196" height="703" key="CommitChangelistDialog2/0.0.1366.708@0.0.1366.708" timestamp="1617080945331" />
+    <state x="80" y="0" width="1196" height="703" key="CommitChangelistDialog2/0.0.1366.708@0.0.1366.708" timestamp="1617081027841" />
     <state x="740" y="299" key="FileChooserDialogImpl" timestamp="1614635660184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,9 +249,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="1978" y="89" width="1633" height="875" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615239835818" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615589541258">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="443" y="153" width="672" height="462" key="search.everywhere.popup" timestamp="1617472209643">
+      <screen x="0" y="0" width="1366" height="708" />
     </state>
+    <state x="443" y="153" width="672" height="462" key="search.everywhere.popup/0.0.1366.708@0.0.1366.708" timestamp="1617472209643" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615589541258" />
   </component>
 </project>

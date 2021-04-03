@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryLightGColor"
     tools:context=".StartPage">
 
     <EditText
@@ -47,7 +48,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="422dp"
-        android:text="Login" />
+        android:text="Login"
+        app:backgroundTint="@color/secondaryTextColor"/>
 
     <Button
         android:id="@+id/signup_button"
@@ -56,5 +58,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="129dp"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        app:backgroundTint="@color/secondaryTextColor"/>
 </RelativeLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Timer">
+    tools:context=".Timer"
+    android:background="@color/primaryLightAColor">
 
     <TextView
         android:id="@+id/text"

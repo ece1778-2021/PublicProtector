@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor"
     tools:context=".AmberMode">
 
-    <Button
+    <AutoCompleteTextView
         android:id="@+id/button"
-        android:layout_width="278dp"
-        android:layout_height="93dp"
-        android:text="@string/Red"
-        android:textSize="32dp"
-        app:backgroundTint="@color/primaryColor"
+        android:layout_width="290dp"
+        android:layout_height="293dp"
+        android:text="You are in RED MODE"
+        android:textSize="28dp"
+        android:textColor="@color/primaryTextColor"
+        app:backgroundTint="@color/primaryTextAColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

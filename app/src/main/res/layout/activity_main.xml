@@ -5,6 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primaryGColor"
     tools:context=".MainActivity">
 
     <Button
@@ -13,6 +14,7 @@
         android:layout_height="74dp"
         android:text="Activate Amber mode"
         android:textSize="20dp"
+        app:backgroundTint="@color/primaryAColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -26,15 +28,16 @@
         android:id="@+id/notificationTrigger"
         android:layout_width="207dp"
         android:layout_height="74dp"
-        android:text="Send global alert"
+        android:text="Send global RED alert"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timerTrigger"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.437" />
 
     <ImageButton
         android:id="@+id/settingsButton"
@@ -56,6 +59,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="20dp"
+        app:backgroundTint="@color/secondaryTextColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toBottomOf="@+id/notify_contacts"
@@ -65,12 +69,13 @@
         android:id="@+id/notify_contacts"
         android:layout_width="198dp"
         android:layout_height="72dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="304dp"
         android:text="Notify Contacts"
         android:textSize="20dp"
+        app:backgroundTint="@color/primaryDarkGColor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/notificationTrigger" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
