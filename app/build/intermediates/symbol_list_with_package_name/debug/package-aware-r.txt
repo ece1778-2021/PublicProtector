@@ -1948,6 +1948,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id homebutton
 id honorRequest
 id icon
 id icon_group
@@ -2009,6 +2010,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id move2red
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2045,7 +2047,6 @@ id notificationTrigger
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id notify_contacts
 id off
 id on
 id outline

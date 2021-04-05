@@ -46,10 +46,13 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_speech_to_text)
+
         auth = Firebase.auth
         var db = Firebase.firestore
         val user = auth.currentUser
         val userID: String = user?.uid ?: "WillNotGetHere"
+        val movetimer: Button = findViewById(R.id.move2red)
         var res9 = db.collection("users").document(userID)
                 .get()
                 .addOnSuccessListener {document ->
@@ -68,7 +71,6 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         captions[DIGITS_SEARCH] = "one two three four five"
         captions[PHONE_SEARCH] = "phone search"
         captions[FORECAST_SEARCH] = "forecase search"
-        setContentView(R.layout.activity_speech_to_text)
 
         val permissionCheck = ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.RECORD_AUDIO)
         if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
@@ -89,10 +91,11 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         recognizer.addKeyphraseSearch("wakeup", "oh mighty computer")
         makeText(this, "aaa", Toast.LENGTH_SHORT).show()*/
 
-
-        val movetimer: Button = findViewById(R.id.move2red)
         movetimer.setOnClickListener {
-            move2Timer()
+            //move2Timer()
+            val intent: Intent = Intent(this, Timer_temp::class.java)
+            intent.putExtra("timerVal", timerVal)
+            startActivity(intent)
         }
     }
 
@@ -159,7 +162,10 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         val text = hypothesis.hypstr
         if (text == phrase || text == "oh mighty computer") {
             recognizer.shutdown()
-            move2Timer()
+            //move2Timer()
+            val intent: Intent = Intent(this, Timer_temp::class.java)
+            intent.putExtra("timerVal", timerVal)
+            startActivity(intent)
         }
         else (findViewById<View>(R.id.text) as TextView).text = text
     }

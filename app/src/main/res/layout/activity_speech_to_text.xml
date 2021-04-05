@@ -18,7 +18,7 @@
         android:gravity="center"
         android:textColor="#616161"
         android:text="You are in Amber Mode. Your personal keyphrase will activate the timer for Red Mode."
-        android:textSize="32dp" />
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/text"
@@ -31,7 +31,7 @@
         android:textColor="#616161"
         android:gravity="center"
         android:text=""
-        android:textSize="32dp" />
+        android:textSize="32sp" />
 
     <Button
         android:id="@+id/move2red"
@@ -43,7 +43,7 @@
         android:layout_marginStart="69dp"
         android:layout_marginBottom="56dp"
         android:text="Activate Timer"
-        android:textSize="32dp"
+        android:textSize="32sp"
         app:backgroundTint="@color/primaryAColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
