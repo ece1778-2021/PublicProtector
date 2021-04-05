@@ -10,7 +10,7 @@ class instruction_manual : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_instruction_manual)
 
-        val backButton: Button = findViewById(R.id.back)
+        val backButton: Button = findViewById(R.id.backButton)
         backButton.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

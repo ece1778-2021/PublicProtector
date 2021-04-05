@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Peter\\Desktop\\ECE1778\\CryptoGuardian\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Peter\\Desktop\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_instruction_manual.xml.flat",
+        "source": "C:\\Users\\Peter\\Desktop\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_instruction_manual.xml"
+    },
+    {
         "merged": "C:\\Users\\Peter\\Desktop\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Peter\\Desktop\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

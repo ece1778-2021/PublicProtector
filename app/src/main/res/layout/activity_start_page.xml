@@ -48,7 +48,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="422dp"
         android:text="Login"
-        android:textSize="20" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/signup_button"
@@ -58,5 +58,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="129dp"
         android:text="Sign Up"
-        android:textSize="20" />
+        android:textSize="20sp" />
 </RelativeLayout>

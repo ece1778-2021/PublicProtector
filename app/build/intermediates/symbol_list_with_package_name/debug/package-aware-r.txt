@@ -1828,6 +1828,8 @@ id alertTitle
 id aligned
 id all
 id always
+id amber_mode_instructions
+id amber_mode_title
 id ambertext
 id animateToEnd
 id animateToStart
@@ -1838,6 +1840,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id back
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1845,7 +1848,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id buttonPanel
 id cache_measures
 id cancelButton
@@ -1940,6 +1942,8 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id green_mode_instructions
+id green_mode_title
 id group_divider
 id grouping
 id groups
@@ -1958,6 +1962,7 @@ id ignore
 id ignoreRequest
 id image
 id info
+id instruction
 id invisible
 id inward
 id italic
@@ -2074,6 +2079,8 @@ id ratio
 id rectangles
 id recycle_layout
 id redModeButton
+id red_mode_instructions
+id red_mode_title
 id relativeLayout
 id relativeLayout2
 id reverseSawtooth
@@ -2163,6 +2170,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2271,6 +2279,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_amber_mode
 layout activity_confirm_red_mode
+layout activity_instruction_manual
 layout activity_main
 layout activity_move_to_map
 layout activity_settings
