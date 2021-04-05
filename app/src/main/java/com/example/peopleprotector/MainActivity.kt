@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity() {
         val notifStart: Button = findViewById(R.id.notificationTrigger)
         val settingsButton: ImageButton = findViewById(R.id.settingsButton)
         val logoutButton: Button = findViewById(R.id.logout_button)
-        val notifyContactsButton: Button = findViewById(R.id.notify_contacts)
         //val gmmIntentUri = Uri.parse("geo:0,0?q=37.7749,-122.4194(ALERT)")
         //val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         //mapIntent.setPackage("com.google.android.apps.maps")
@@ -82,22 +81,22 @@ class MainActivity : AppCompatActivity() {
                 }
 
 
-        notifyContactsButton.setOnClickListener {
-            // Get the names of the contacts and then notify them with their subscriptions
-            db.collection("connections")
-                    .get().addOnSuccessListener { result ->
-                        for(document in result) {
-                            val uid = document.data.get("uid") as String
-                            val contact = document.data.get("contact") as String
+        //notifyContactsButton.setOnClickListener {
+        //    // Get the names of the contacts and then notify them with their subscriptions
+        //    db.collection("connections")
+        //            .get().addOnSuccessListener { result ->
+        //                for(document in result) {
+        //                    val uid = document.data.get("uid") as String
+        //                    val contact = document.data.get("contact") as String
 
-                            if(uid == userID) {
-                                val topic = "/topics/" + contact
-                                sendMessage(topic)
-                            }
-                        }
-                    }
+        //                    if(uid == userID) {
+        //                        val topic = "/topics/" + contact
+        //                        sendMessage(topic)
+        //                    }
+        //                }
+        //            }
 
-        }
+        //}
 
         timerStart.setOnClickListener{
             val intent = Intent(this, SpeechToText::class.java)
