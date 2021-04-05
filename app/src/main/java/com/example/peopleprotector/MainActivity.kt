@@ -9,7 +9,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -70,14 +69,14 @@ class MainActivity : AppCompatActivity() {
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            Toast.makeText(baseContext, "Location Permission Denied", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(baseContext, "Location Permission Denied", Toast.LENGTH_SHORT).show()
             return
         }
         fusedLocationClient.lastLocation
                 .addOnSuccessListener { location: Location? ->
                     lat = location?.latitude.toString()
                     lon = location?.longitude.toString()
-                    Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
                 }
 
 
@@ -148,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                         msg = "Messaging Disabled"
                     }
                     Log.d(TAG, msg)
-                    Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                 }
 
 
@@ -172,7 +171,7 @@ class MainActivity : AppCompatActivity() {
                                     msg = "Firebase Connection Failed"
                                 }
                                 Log.d(TAG, msg)
-                                Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+                                //Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                             }
                     }
 
@@ -194,7 +193,7 @@ class MainActivity : AppCompatActivity() {
                                             msg = "You have not unsubbec"
                                         }
                                         Log.d(TAG, msg)
-                                        Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+                                        //Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                                     }
                         }
                     }
@@ -293,7 +292,7 @@ class MainActivity : AppCompatActivity() {
                     //msg.setText("")
                 },
                 Response.ErrorListener {
-                    Toast.makeText(this@MainActivity, "Request error", Toast.LENGTH_LONG).show()
+                    //Toast.makeText(this@MainActivity, "Request error", Toast.LENGTH_LONG).show()
                     Log.i("TAG", "onErrorResponse: Didn't work")
                 }) {
 

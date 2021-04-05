@@ -66,7 +66,12 @@ class MoveToMap : AppCompatActivity() {
                 }
 
         var mapButton: Button = findViewById(R.id.mapbutton)
+        var homeButton: Button = findViewById(R.id.homebutton)
 
+        homeButton.setOnClickListener {
+            var intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         mapButton.setOnClickListener {
             val gmmIntentUri = Uri.parse("geo:0,0?q=" + lat + "," + lon + "(ALERT)")
