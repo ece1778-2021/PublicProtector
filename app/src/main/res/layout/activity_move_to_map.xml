@@ -9,14 +9,16 @@
 
     <TextView
         android:id="@+id/alertMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="417dp"
+        android:layout_height="144dp"
         android:layout_marginTop="224dp"
-        android:text=""
+        android:text="A user is in trouble near you"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/mapbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.8"
+        android:gravity="center"
+        android:textColor="#616161"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -31,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/homebutton"

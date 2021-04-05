@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_amber_mode.xml.flat",
-        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_amber_mode.xml"
-    },
-    {
         "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_amber_mode.xml.flat",
+        "source": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\src\\main\\res\\layout\\activity_amber_mode.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\School\\Grad School\\ECE1778\\CryptoGuardian\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
