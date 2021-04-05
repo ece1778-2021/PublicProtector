@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="224dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/mapbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,25 +23,28 @@
 
     <Button
         android:id="@+id/mapbutton"
-        android:layout_width="190dp"
-        android:layout_height="72dp"
-        android:layout_marginBottom="228dp"
-        android:text="See their location on google maps"
+        android:layout_width="215dp"
+        android:layout_height="87dp"
+        android:text="See Their Location"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
 
     <Button
         android:id="@+id/homebutton"
-        android:layout_width="190dp"
-        android:layout_height="72dp"
+        android:layout_width="215dp"
+        android:layout_height="87dp"
+        android:backgroundTint="@color/primaryGColor"
         android:text="Return Home"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/primaryGColor"
-        app:layout_constraintTop_toBottomOf="@+id/mapbutton" />
+        app:layout_constraintTop_toBottomOf="@+id/mapbutton"
+        app:layout_constraintVertical_bias="0.317" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

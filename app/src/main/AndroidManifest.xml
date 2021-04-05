@@ -16,11 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PeopleProtector">
-        <activity android:name=".ConfirmRedMode"></activity>
+        <activity android:name=".instruction_manual"></activity>
+        <activity android:name=".ConfirmRedMode" />
         <activity android:name=".MoveToMap" />
         <activity
             android:name=".settings"
-            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+            android:windowSoftInputMode="adjustPan|stateHidden" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SpeechToText" />

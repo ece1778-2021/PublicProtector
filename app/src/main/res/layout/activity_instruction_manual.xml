@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instruction_manual">
+
+    <TextView
+        android:id="@+id/green_mode_title"
+        android:layout_width="378dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="Green Mode"
+        android:textColor="#35b339"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/green_mode_instructions"
+        android:layout_width="378dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="It indicates you are safe. You have not notified the app of any danger. Here, you can move directly to Amber Mode or Red Mode depending on the level of danger you're facing."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:id="@+id/amber_mode_title"
+        android:layout_width="378dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="Amber Mode"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <TextView
+        android:id="@+id/amber_mode_instructions"
+        android:layout_width="378dp"
+        android:layout_height="199dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="If you've activated Amber Mode, it means that you feel unsafe and that a dangerous situation could occur. Here, you can start a timer with your personalized keyphrase. Once the timer reaches zero, Red Mode will activate. You can also skip the timer by saying 'Skip the Timer' or with the button on the screen."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <TextView
+        android:id="@+id/red_mode_title"
+        android:layout_width="378dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="Red Mode"
+        android:textColor="#b71c1c"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/red_mode_instructions"
+        android:layout_width="378dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:text="If you’ve activated Red Mode, it means that you are in immediate danger. Your rights will be read aloud by your phone and your contacts will be notified of your location. Do not activate this mode unless you are in immediate danger."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>

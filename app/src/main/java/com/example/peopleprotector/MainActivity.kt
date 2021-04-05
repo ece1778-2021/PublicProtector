@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
         val notifStart: Button = findViewById(R.id.notificationTrigger)
         val settingsButton: ImageButton = findViewById(R.id.settingsButton)
         val logoutButton: Button = findViewById(R.id.logout_button)
+        val instructionButton: Button = findViewById(R.id.instruction)
         //val gmmIntentUri = Uri.parse("geo:0,0?q=37.7749,-122.4194(ALERT)")
         //val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         //mapIntent.setPackage("com.google.android.apps.maps")
@@ -113,6 +114,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, settings::class.java)
             startActivity(intent)
         }
+
+        instructionButton.setOnClickListener{
+            val intent = Intent(this, instruction_manual::class.java)
+            startActivity(intent)
+        }
+
         logoutButton.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             val intent = Intent(this, StartPage::class.java)

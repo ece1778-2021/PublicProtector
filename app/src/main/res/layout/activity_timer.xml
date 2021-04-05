@@ -18,7 +18,7 @@
         android:layout_marginTop="244dp"
         android:gravity="center"
         android:text=""
-        android:textSize="32dp" />
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/timertext2"
@@ -30,7 +30,7 @@
         android:text="@string/Timer_Text"
         android:textAlignment="center"
         android:textColor="@color/primaryColor"
-        android:textSize="36dp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
         android:text="@string/Timer"
         android:textAlignment="center"
         android:textColor="@color/primaryColor"
-        android:textSize="48dp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +61,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="388dp"
         android:text="@string/Red"
-        android:textSize="36dp"
+        android:textSize="36sp"
         app:backgroundTint="@color/primaryColor"
         app:iconTint="@color/primaryDarkColor"
         app:layout_constraintEnd_toEndOf="parent"

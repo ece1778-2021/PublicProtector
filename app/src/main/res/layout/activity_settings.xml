@@ -40,7 +40,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:text="Change the Timer Value"
-                android:textSize="24dp" />
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/timer"
@@ -52,7 +52,7 @@
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true"
-                android:textSize="24dp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/adduserText"
@@ -62,7 +62,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:text="Add or Delete a User from Your List:"
-                android:textSize="24dp" />
+                android:textSize="24sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/userrecycle"
@@ -80,7 +80,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:hint="Enter a username"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true" />
@@ -114,7 +114,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:text="Change your key phrase"
-                android:textSize="24dp" />
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/keyphrase"
@@ -124,7 +124,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:hint="Enter a keyphrase"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:imeActionLabel="@string/action_keyphrase"
                 android:imeOptions="actionDone"
                 android:selectAllOnFocus="true" />

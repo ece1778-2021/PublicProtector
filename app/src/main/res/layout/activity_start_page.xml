@@ -47,14 +47,16 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="422dp"
-        android:text="Login" />
+        android:text="Login"
+        android:textSize="20" />
 
     <Button
         android:id="@+id/signup_button"
-        android:layout_width="122dp"
-        android:layout_height="69dp"
+        android:layout_width="133dp"
+        android:layout_height="72dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="129dp"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        android:textSize="20" />
 </RelativeLayout>
