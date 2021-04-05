@@ -53,8 +53,8 @@ class MoveToMap : AppCompatActivity() {
                         var flon = lon!!.toFloat()
                         var fmyLat = myLat!!.toFloat()
                         var fmyLon = myLon!!.toFloat()
-                        var dist = getDistFromLatLon(flat, flon, fmyLat, fmyLon).toString()
-                        var message = "User with name " + name + " is in trouble " + dist + " km away from you"
+                        var dist = getDistFromLatLon(flat, flon, fmyLat, fmyLon)
+                        var message = "User with name " + name + " is in trouble " + "%.2f".format(dist) + " km away from you"
                         var alertMessageView = findViewById<TextView>(R.id.alertMessage)
                         alertMessageView.text = message
                     }

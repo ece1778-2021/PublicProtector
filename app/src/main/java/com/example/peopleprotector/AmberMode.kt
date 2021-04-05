@@ -10,7 +10,6 @@ import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.widget.Button
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -63,14 +62,14 @@ class AmberMode : AppCompatActivity(), TextToSpeech.OnInitListener {
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            Toast.makeText(baseContext, "nopermission", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(baseContext, "nopermission", Toast.LENGTH_SHORT).show()
             return
         }
         var res7 = fusedLocationClient.lastLocation
                 .addOnSuccessListener { location: Location? ->
                     lat = location?.latitude.toString()
                     lon = location?.longitude.toString()
-                    Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
                     var db = Firebase.firestore
                     val docRef = db.collection("users").document(userID)
                     var res8 = docRef.get()
@@ -111,7 +110,7 @@ class AmberMode : AppCompatActivity(), TextToSpeech.OnInitListener {
                     //msg.setText("")
                 },
                 Response.ErrorListener {
-                    Toast.makeText(this@AmberMode, "Request error", Toast.LENGTH_LONG).show()
+                    //Toast.makeText(this@AmberMode, "Request error", Toast.LENGTH_LONG).show()
                     Log.i("TAG", "onErrorResponse: Didn't work")
                 }) {
 
