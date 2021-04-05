@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
         //val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         //mapIntent.setPackage("com.google.android.apps.maps")
         //startActivity(mapIntent)
+        Toast.makeText(this, "Getting ready...", Toast.LENGTH_LONG).show()
         checkLocationPermission()
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
@@ -77,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                 .addOnSuccessListener { location: Location? ->
                     lat = location?.latitude.toString()
                     lon = location?.longitude.toString()
-                    Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(baseContext, lat + lon, Toast.LENGTH_LONG).show()
                 }
 
 
@@ -101,19 +102,16 @@ class MainActivity : AppCompatActivity() {
         timerStart.setOnClickListener{
             val intent = Intent(this, SpeechToText::class.java)
             startActivity(intent)
-            //move2Timer()
-            //sendMessage()
         }
 
         notifStart.setOnClickListener {
-            //val topic = "/topics/protect"
-            //sendMessage(topic)
-            var intent = Intent(this, ConfirmRedMode::class.java)
+            val intent = Intent(this, ConfirmRedMode::class.java)
             startActivity(intent)
         }
 
         settingsButton.setOnClickListener{
-            goToSettings()
+            val intent = Intent(this, settings::class.java)
+            startActivity(intent)
         }
         logoutButton.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
@@ -194,7 +192,7 @@ class MainActivity : AppCompatActivity() {
                                             msg = "You have not unsubbec"
                                         }
                                         Log.d(TAG, msg)
-                                        Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
+                                        //Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                                     }
                         }
                     }
