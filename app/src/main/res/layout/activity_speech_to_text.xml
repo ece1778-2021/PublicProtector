@@ -31,5 +31,23 @@
         android:text=""
         android:textSize="32dp" />
 
+    <Button
+        android:id="@+id/move2red"
+        android:layout_width="278dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginBottom="56dp"
+        android:text="Activate Timer"
+        android:textSize="32dp"
+        app:backgroundTint="@color/primaryAColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </RelativeLayout>

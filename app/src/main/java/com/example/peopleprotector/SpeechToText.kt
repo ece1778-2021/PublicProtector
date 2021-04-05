@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.os.AsyncTask
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import android.widget.Toast.makeText
@@ -87,6 +88,12 @@ class SpeechToText : AppCompatActivity(), RecognitionListener {
         recognizer.addListener(this)
         recognizer.addKeyphraseSearch("wakeup", "oh mighty computer")
         makeText(this, "aaa", Toast.LENGTH_SHORT).show()*/
+
+
+        val movetimer: Button = findViewById(R.id.move2red)
+        movetimer.setOnClickListener {
+            move2Timer()
+        }
     }
 
     private fun move2Timer(){
