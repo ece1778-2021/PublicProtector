@@ -65,13 +65,13 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
                             val number: String? = document.data?.get("phone") as String?
                             val email: String? = document.data?.get("email") as String?
                             username = (document.data?.get("username") as String?).toString()
-                            makeText(this, username, Toast.LENGTH_LONG).show()
+                            //makeText(this, username, Toast.LENGTH_LONG).show()
                             var items = remoteMessage.data.get("message")?.split("!!")
                             var name = items?.get(0)
                             var lat = items?.get(1)
                             var lon = items?.get(2)
                             if(name != username) {
-                                makeText(this, username, Toast.LENGTH_LONG).show()
+                                //makeText(this, username, Toast.LENGTH_LONG).show()
                                 var intent = Intent(this, MoveToMap::class.java)
                                 intent.putExtra("package", remoteMessage.data.get("message"))
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -93,7 +93,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         remoteMessage.notification?.let {
             Log.d(TAG, "Message Notification Body: ${it.body}")
             Handler(Looper.getMainLooper()).post{
-                makeText(this, it.body, Toast.LENGTH_LONG).show()
+                //makeText(this, it.body, Toast.LENGTH_LONG).show()
             }
         }
 

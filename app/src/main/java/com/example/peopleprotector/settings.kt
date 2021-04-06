@@ -123,7 +123,7 @@ class settings : AppCompatActivity() {
                             toDelete = document.id
                         }
                     }
-                    Toast.makeText(this, toDelete, Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(this, toDelete, Toast.LENGTH_SHORT).show()
                     if(toDelete != "") {
                         db.collection("connections").document(toDelete).delete()
                         val adapter: CustomAdapter = recyclerView.adapter as CustomAdapter

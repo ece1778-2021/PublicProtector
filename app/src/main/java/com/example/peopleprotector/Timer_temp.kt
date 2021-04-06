@@ -9,8 +9,6 @@ import android.os.CountDownTimer
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
-import android.widget.Toast.makeText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -148,7 +146,7 @@ class Timer_temp : AppCompatActivity(), RecognitionListener {
         findViewById<TextView>(R.id.text).setText("")
         if(hypothesis != null) {
             var text = hypothesis.hypstr
-            makeText(this, text, Toast.LENGTH_SHORT).show()
+            //makeText(this, text, Toast.LENGTH_SHORT).show()
         }
     }
 

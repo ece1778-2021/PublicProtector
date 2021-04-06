@@ -40,14 +40,14 @@ class MoveToMap : AppCompatActivity() {
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-            Toast.makeText(baseContext, "nopermission", Toast.LENGTH_SHORT).show()
+            Toast.makeText(baseContext, "Your app does not have permission to access location", Toast.LENGTH_SHORT).show()
             return
         }
         fusedLocationClient.lastLocation
                 .addOnSuccessListener { location: Location? ->
                     myLat = location?.latitude.toString()
                     myLon = location?.longitude.toString()
-                    Toast.makeText(baseContext, myLat + myLon, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(baseContext, myLat + myLon, Toast.LENGTH_LONG).show()
                     if(myLat != "null" && lat != "null" && myLat != "null" && myLon != "null") {
                         var flat = lat!!.toFloat()
                         var flon = lon!!.toFloat()
